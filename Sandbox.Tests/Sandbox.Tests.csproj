@@ -24,10 +24,6 @@
 		</PackageReference>
 	</ItemGroup>
 
-	<ItemGroup>
-	  <ProjectReference Include="..\Sandbox\Sandbox.csproj" />
-	</ItemGroup>
-
 	<Import Project="..\DTOMaker.Models.Shared\DTOMaker.Models.Shared.projitems" Label="Shared" />
 
 </Project>

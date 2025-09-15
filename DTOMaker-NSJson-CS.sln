@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6F72D2FC-3AC9-451F-B6B9-907E32B23B5C}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
+		projscan.json = projscan.json
+		README.md = README.md
+		t2g.cmd = t2g.cmd
+		version.json = version.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{EA84EF56-0D96-4A7A-9D2C-083AE6C49B62}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "DTOMaker.Core.Shared", "DTOMaker.Core.Shared\DTOMaker.Core.Shared.shproj", "{AF5E10B1-3CB5-4C67-87C2-E8E8918CE3CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTOMaker.Runtime.JsonNewtonSoft", "DTOMaker.Runtime.JsonNewtonSoft\DTOMaker.Runtime.JsonNewtonSoft.csproj", "{224E1A80-C3E6-64F1-5F56-AC020D47329A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.JsonNewtonSoft", "Template.JsonNewtonSoft\Template.JsonNewtonSoft.csproj", "{508E8316-BF0B-DD8C-EABB-BB7D665ABCBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.JsonNewtonSoft.Tests", "Template.JsonNewtonSoft.Tests\Template.JsonNewtonSoft.Tests.csproj", "{21C6E32A-74F2-29B8-0104-93D8BC055B1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTOMaker.JsonNewtonSoft", "DTOMaker.JsonNewtonSoft\DTOMaker.JsonNewtonSoft.csproj", "{6FAF8BEB-249B-976E-1E62-CB2F453352D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTOMaker.JsonNewtonSoft.Tests", "DTOMaker.JsonNewtonSoft.Tests\DTOMaker.JsonNewtonSoft.Tests.csproj", "{02EC9D88-05C4-A0B4-D333-57DF6B40F1F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{224E1A80-C3E6-64F1-5F56-AC020D47329A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{224E1A80-C3E6-64F1-5F56-AC020D47329A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{224E1A80-C3E6-64F1-5F56-AC020D47329A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{224E1A80-C3E6-64F1-5F56-AC020D47329A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{508E8316-BF0B-DD8C-EABB-BB7D665ABCBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{508E8316-BF0B-DD8C-EABB-BB7D665ABCBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{508E8316-BF0B-DD8C-EABB-BB7D665ABCBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{508E8316-BF0B-DD8C-EABB-BB7D665ABCBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21C6E32A-74F2-29B8-0104-93D8BC055B1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21C6E32A-74F2-29B8-0104-93D8BC055B1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21C6E32A-74F2-29B8-0104-93D8BC055B1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21C6E32A-74F2-29B8-0104-93D8BC055B1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FAF8BEB-249B-976E-1E62-CB2F453352D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FAF8BEB-249B-976E-1E62-CB2F453352D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FAF8BEB-249B-976E-1E62-CB2F453352D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FAF8BEB-249B-976E-1E62-CB2F453352D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02EC9D88-05C4-A0B4-D333-57DF6B40F1F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02EC9D88-05C4-A0B4-D333-57DF6B40F1F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02EC9D88-05C4-A0B4-D333-57DF6B40F1F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02EC9D88-05C4-A0B4-D333-57DF6B40F1F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AF5E10B1-3CB5-4C67-87C2-E8E8918CE3CD} = {EA84EF56-0D96-4A7A-9D2C-083AE6C49B62}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2C984986-C2C9-4136-A2D4-1A5FE9BDF8F0}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		DTOMaker.Core.Shared\DTOMaker.Core.Shared.projitems*{6faf8beb-249b-976e-1e62-cb2f453352d4}*SharedItemsImports = 5
+		DTOMaker.Core.Shared\DTOMaker.Core.Shared.projitems*{af5e10b1-3cb5-4c67-87c2-e8e8918ce3cd}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal

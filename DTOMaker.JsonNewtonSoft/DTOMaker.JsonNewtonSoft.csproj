@@ -6,8 +6,8 @@
 		<LangVersion>latest</LangVersion>
 		<Nullable>enable</Nullable>
 		<WarningsAsErrors>nullable</WarningsAsErrors>
-		<PackageProjectUrl>https://github.com/datafac/dtomaker-core</PackageProjectUrl>
-		<RepositoryUrl>https://github.com/datafac/dtomaker-core</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/datafac/dtomaker-nsjson-cs</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/datafac/dtomaker-nsjson-cs</RepositoryUrl>
 		<Company>DataFac</Company>
 		<Product>DTOMaker</Product>
 		<Authors>DataFac Contributors</Authors>

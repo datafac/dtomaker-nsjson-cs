@@ -14,7 +14,6 @@
 		  <PrivateAssets>all</PrivateAssets>
 		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
-		<PackageReference Include="MessagePack" Version="2.5.198" />
 		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 		<PackageReference Include="Shouldly" Version="4.3.0" />
@@ -26,7 +25,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\DTOMaker.Runtime.MessagePack\DTOMaker.Runtime.MessagePack.csproj" />
 	  <ProjectReference Include="..\Template.JsonNewtonSoft\Template.JsonNewtonSoft.csproj" />
 	</ItemGroup>
 

@@ -16,7 +16,6 @@
 	<ItemGroup>
 		<ProjectReference Include="..\DTOMaker.Models.MessagePack\DTOMaker.Models.MessagePack.csproj" />
 		<ProjectReference Include="..\DTOMaker.Models\DTOMaker.Models.csproj" />
-		<ProjectReference Include="..\DTOMaker.Runtime.CSPoco\DTOMaker.Runtime.CSPoco.csproj" />
 		<ProjectReference Include="..\DTOMaker.Runtime.JsonNewtonSoft\DTOMaker.Runtime.JsonNewtonSoft.csproj" />
 		<ProjectReference Include="..\DTOMaker.Runtime.MemBlocks\DTOMaker.Runtime.MemBlocks.csproj" />
 		<ProjectReference Include="..\DTOMaker.Runtime.MessagePack\DTOMaker.Runtime.MessagePack.csproj" />

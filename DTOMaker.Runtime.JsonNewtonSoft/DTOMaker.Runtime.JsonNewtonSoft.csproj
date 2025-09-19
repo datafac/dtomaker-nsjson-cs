@@ -29,7 +29,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="DTOMaker.Runtime" Version="0.71.8" />
+		<PackageReference Include="DTOMaker.Runtime" Version="0.71.9" />
 		<PackageReference Include="Microsoft.Bcl.HashCode" Version="6.0.0" />
 		<PackageReference Include="Nerdbank.GitVersioning" Version="3.7.115">
 			<PrivateAssets>all</PrivateAssets>
